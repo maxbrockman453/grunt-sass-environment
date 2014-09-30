@@ -1,0 +1,98 @@
+body {
+  background-color: #b6b6b6;
+  color: #20cbdf; }
+
+.column-left {
+  background-color: #54636a; }
+
+.column-right-storefront {
+  background-color: #54636a; }
+
+.column-right-buttons {
+  background: transparent; }
+
+.column-left-person-container, .column-left-product-container {
+  background-color: grey; }
+
+.social-storefront-button {
+  background-color: #54636a; }
+
+.mobile-storefront-button {
+  background-color: #54636a; }
+
+.desktop-storefront-button {
+  background-color: #54636a; }
+
+.storefront-container {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 0.2em; }
+
+.column-left {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 30em;
+  width: 47%;
+  margin: 1.5%;
+  border-radius: 0.2em; }
+
+.column-left-product-container {
+  display: flex;
+  height: 52%;
+  justify-content: space-around;
+  margin: 1em;
+  border-radius: 0.2em; }
+
+.column-left-person-container {
+  display: flex;
+  height: 35%;
+  margin: 0 1em;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  justify-content: space-between; }
+
+.column-left-person {
+  width: 34%;
+  background-color: #fff;
+  border-radius: 0.2em; }
+
+.column-left-person-info {
+  width: 64%;
+  background-color: #fff;
+  border-radius: 0.2em; }
+
+.column-right {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 30em;
+  width: 47%;
+  margin: 1.5%;
+  border-radius: 0.2em; }
+
+.column-right-storefront {
+  display: flex;
+  height: 70%; }
+
+.column-right-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  height: 30%;
+  margin: 0 auto; }
+
+.social-storefront-button {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin: auto; }
+
+.mobile-storefront-button {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin: auto; }
+
+.desktop-storefront-button {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin: auto; }
